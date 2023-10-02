@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comprobador de similitud de textos</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Comprobador de similitud de textos</h1>
+      <label for="text1">Rellene El Primer Campo:</label>
+      <input type="text" id="text1" placeholder="Text 1" />
+
+      <label for="text2">Rellene El Segundo Campo:</label>
+      <input type="text" id="text2" placeholder="Text 2" />
+
+      <button id="calculateButton">Calcular Similaridad</button>
+      <p>Similaridad: <span id="result"></span>%</p>
+    </div>
+  </body>
+</html>
